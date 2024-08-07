@@ -21,11 +21,11 @@ function toogle(){
     if(primeraRespuesta.classList.contains("respuesta-acordeon")){
         primeraRespuesta.classList.remove("respuesta-acordeon");
         primeraRespuesta.classList.add("desaparecer");
-        primerBoton.src = "./assets/images/icon-plus.svg";
+        primerBoton.src = "./icon-plus.svg";
     }else{
         primeraRespuesta.classList.add("respuesta-acordeon");
         primeraRespuesta.classList.remove("desaparecer");
-        primerBoton.src = "./assets/images/icon-minus.svg";
+        primerBoton.src = "./icon-minus.svg";
 
     }
 }
@@ -34,11 +34,11 @@ function toogleDos(){
     if(segundaRespuesta.classList.contains("desaparecer")){
         segundaRespuesta.classList.remove("desaparecer");
         segundaRespuesta.classList.add("respuesta-acordeon");
-        segundoBoton.src = "./assets/images/icon-minus.svg";
+        segundoBoton.src = "./icon-minus.svg";
     }else{
         segundaRespuesta.classList.add("desaparecer");
         segundaRespuesta.classList.remove("respuesta-acordeon");
-        segundoBoton.src = "./assets/images/icon-plus.svg";
+        segundoBoton.src = "./icon-plus.svg";
         
     }
 }
@@ -48,11 +48,11 @@ function toogleTres(){
     if(terceraRespuesta.classList.contains("desaparecer")){
         terceraRespuesta.classList.remove("desaparecer");
         terceraRespuesta.classList.add("respuesta-acordeon");
-        tercerBoton.src = "./assets/images/icon-minus.svg";
+        tercerBoton.src = "./icon-minus.svg";
     }else{
         terceraRespuesta.classList.add("desaparecer");
         terceraRespuesta.classList.remove("respuesta-acordeon");
-        tercerBoton.src = "./assets/images/icon-plus.svg";
+        tercerBoton.src = "./icon-plus.svg";
     }
 }
 
@@ -60,10 +60,10 @@ function toogleCuarto(){
     if(cuartaRespuesta.classList.contains("desaparecer")){
         cuartaRespuesta.classList.remove("desaparecer");
         cuartaRespuesta.classList.add("respuesta-acordeon");
-        cuartoBoton.src = "./assets/images/icon-minus.svg";
+        cuartoBoton.src = "./icon-minus.svg";
     }else{
         cuartaRespuesta.classList.add("desaparecer");
         cuartaRespuesta.classList.remove("respuesta-acordeon");
-        cuartoBoton.src = "./assets/images/icon-plus.svg";
+        cuartoBoton.src = "./icon-plus.svg";
     }
 }
